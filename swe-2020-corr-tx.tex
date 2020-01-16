@@ -154,7 +154,11 @@ In the magnetosphere the GUMICS$-$4 does not work well. The GUMICS$-$4 uses a ti
 
 You suggested to check whether the wrong GUMICS-4 simulation results depend on the solar wind parameters (Bx, By, Bz, Vx, Vy, Vz, p). I saved the averaged shifted OMNI parameters. I added manually when the correlation of the Bz, Vx, nCIS and nEFW is wrong. I plotted the distribution of the OMNI parameters belong to the bad simulation results for the solar wind region and in the magnetosheath. I did not make the study for the magnetosphere because the deviance is so large that cannot be explained in this way. The brief result for the solar wind and magnetosheath regions is that the badness of the GUMICS-4 simulations does not depend on the OMNI parameters.
 
-Table~\ref{tab:omnisw} Table~\ref{tab:omnimsh} 
+Table~\ref{tab:omnisw} Table~\ref{tab:omnimsh}
+
+Figure~\ref{fig:swomnibxyz}, Figure~\ref{fig:swomnivxyz}, Figure~\ref{fig:swomnip}
+
+Figure~\ref{fig:mshomnibxyz}, Figure~\ref{fig:mshomnivxyz}, Figure~\ref{fig:mshomnip}
 
 % --------------------
 
@@ -290,6 +294,60 @@ The OMNI data were obtained from the GSFC/SPDF OMNIWeb interface at http://omniw
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.9\textwidth,angle=0]{swe-2020-corr-f13.eps}  
+\caption{The distribution of the $B_{x}$, the $B_{y}$ and the $B_{z}$ OMNI solar wind magnetic field components (horizontally) when the agreement of the Cluster SC3 measurements and the GUMICS$-$4 simulations (vertically) are poor in the solar wind (see Table~\ref{tab:omnisw}). The $B_{z}$, $V_{x}$, $n_{CIS}$ and $n_{EFW}$ are the magnetic field GSE Z component, the velocity X GSE component, the solar wind density measured by the CIS HIA instrument and calculated from the EFW spacecraft potential, respectively.}
+\label{fig:swomnibxyz}
+\end{figure}
+
+\pagebreak
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.9\textwidth,angle=0]{swe-2020-corr-f14.eps}  
+\caption{The distribution of the $V_{x}$, the $V_{y}$ and the $V_{z}$ OMNI solar wind solar wind velocity components (horizontally) when the agreement of the Cluster SC3 measurements and the GUMICS$-$4 simulations (vertically) are poor in the solar wind (see Table~\ref{tab:omnisw}). The $B_{z}$, $V_{x}$, $n_{CIS}$ and $n_{EFW}$ are the magnetic field GSE Z component, the velocity X GSE component, the solar wind density measured by the CIS HIA instrument and calculated from the EFW spacecraft potential, respectively.}
+\label{fig:swomnivxyz}
+\end{figure}
+
+\pagebreak
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.9\textwidth,angle=0]{swe-2020-corr-f15.eps}  
+\caption{The distribution of the $P$ solar wind pressure calculated from OMNI parameters (horizontally) when the agreement of the Cluster SC3 measurements and the GUMICS$-$4 simulations (vertically, clockwise) are poor in the solar wind (see Table~\ref{tab:omnisw}). The $B_{z}$, $V_{x}$, $n_{CIS}$ and $n_{EFW}$ are the magnetic field GSE Z component, the velocity X GSE component, the solar wind density measured by the CIS HIA instrument and calculated from the EFW spacecraft potential, respectively.}
+\label{fig:swomnip}
+\end{figure}
+
+\pagebreak
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.9\textwidth,angle=0]{swe-2020-corr-f16.eps}  
+\caption{The distribution of the $B_{x}$, the $B_{y}$ and the $B_{z}$ OMNI solar wind magnetic field components (horizontally) when the agreement of the Cluster SC3 measurements and the GUMICS$-$4 simulations (vertically) are poor in the magnetosheath (see Table~\ref{tab:omnimsh}). The $B_{z}$, $V_{x}$, $n_{CIS}$ and $n_{EFW}$ are the magnetic field GSE Z component, the velocity X GSE component, the solar wind density measured by the CIS HIA instrument and calculated from the EFW spacecraft potential, respectively.}
+\label{fig:mshomnibxyz}
+\end{figure}
+
+\pagebreak
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.9\textwidth,angle=0]{swe-2020-corr-f17.eps}  
+\caption{The distribution of the $V_{x}$, the $V_{y}$ and the $V_{z}$ OMNI solar wind solar wind velocity components (horizontally) when the agreement of the Cluster SC3 measurements and the GUMICS$-$4 simulations (vertically) are poor in the magnetosheath (see Table~\ref{tab:omnimsh}). The $B_{z}$, $V_{x}$, $n_{CIS}$ and $n_{EFW}$ are the magnetic field GSE Z component, the velocity X GSE component, the solar wind density measured by the CIS HIA instrument and calculated from the EFW spacecraft potential, respectively.}
+\label{fig:mshomnivxyz}
+\end{figure}
+
+\pagebreak
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.9\textwidth,angle=0]{swe-2020-corr-f18.eps}  
+\caption{The distribution of the $P$ solar wind pressure calculated from OMNI parameters (horizontally) when the agreement of the Cluster SC3 measurements and the GUMICS$-$4 simulations (vertically, clockwise) are poor in the magnetosheath (see Table~\ref{tab:omnimsh}). The $B_{z}$, $V_{x}$, $n_{CIS}$ and $n_{EFW}$ are the magnetic field GSE Z component, the velocity X GSE component, the solar wind density measured by the CIS HIA instrument and calculated from the EFW spacecraft potential, respectively.}
+\label{fig:mshomnip}
+\end{figure}
+
+\pagebreak
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.9\textwidth,angle=0]{swe-2020-corr-f19.eps}  
 \caption{GUMICS-4 simulation results (black) and Cluster SC3 magnetic field, ion plasma moments (red) and electron density calculated from spacecraft potential (blue) from September 28, 2002 from 2:58 to 7:00 (UT) in the tail in GSE system. (Top) Magnetic field Z component. (Middle) Solar wind velocity X component (Bottom) Solar wind density.}
 \label{fig:nsplot}
 \end{figure}
@@ -586,29 +644,6 @@ Start/End\\
 
 \pagebreak
 
-\begin{table}[h]
-\setlength{\tabcolsep}{3pt}
-\centering
-\begin{tabular}{lc}
-\hline
-Start/End & GUMICS Neutral Sheet\\
-\hline
-20020901 19:10/0901 23:54 & -- \\
-20020906 14:07/0906 16:37 & + \\
-20020913 17:33/0913 20:06 & + \\
-20020918 12:47/0918 14:26 & -- \\
-20020920 20:36/0921 02:13 & + \\
-20020928 02:58/0928 07:00 & + \\
-20021002 16:12/1002 23:52 & -- \\
-20021014 12:34/1014 22:53 & + \\
-20021017 03:08/1017 04:11 & -- \\
-\hline
-\end{tabular}
-\caption{Intervals around the studied neutral sheet crossings in the tail. The Cluster SC3 crossed the neutral sheet in all cases. The 3rd column shows whether the neutral sheet is visible in the GUMICS$-$4 simulations. \label{tab:ns}}
-\end{table}
-
-\pagebreak
-
 \begin{table}[!h]
 %\setlength{\tabcolsep}{3pt}
 \centering
@@ -743,5 +778,26 @@ Start/End & $B_{z}$ & $V_{x}$ & P & $B_{z}$ & $V_{x}$ & $n_{CIS}$ & $n_{EFW}$ \\
 \end{center}
 
 \pagebreak
+
+\begin{table}[h]
+\setlength{\tabcolsep}{3pt}
+\centering
+\begin{tabular}{lc}
+\hline
+Start/End & GUMICS Neutral Sheet\\
+\hline
+20020901 19:10/0901 23:54 & -- \\
+20020906 14:07/0906 16:37 & + \\
+20020913 17:33/0913 20:06 & + \\
+20020918 12:47/0918 14:26 & -- \\
+20020920 20:36/0921 02:13 & + \\
+20020928 02:58/0928 07:00 & + \\
+20021002 16:12/1002 23:52 & -- \\
+20021014 12:34/1014 22:53 & + \\
+20021017 03:08/1017 04:11 & -- \\
+\hline
+\end{tabular}
+\caption{Intervals around the studied neutral sheet crossings in the tail. The Cluster SC3 crossed the neutral sheet in all cases. The 3rd column shows whether the neutral sheet is visible in the GUMICS$-$4 simulations. \label{tab:ns}}
+\end{table}
 
 \end{document}
