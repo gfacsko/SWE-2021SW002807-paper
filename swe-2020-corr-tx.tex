@@ -152,21 +152,11 @@ In the magnetosphere the GUMICS$-$4 does not work well. The GUMICS$-$4 uses a ti
 
 % Badness of the correlation vs. OMNI in the SW and the MSH.
 
-You suggested to check whether the wrong GUMICS-4 simulation results depend on the solar wind parameters (Bx, By, Bz, Vx, Vy, Vz, p). I saved the averaged shifted OMNI parameters. I added manually when the correlation of the Bz, Vx, nCIS and nEFW is wrong. I plotted the distribution of the OMNI parameters belong to the bad simulation results for the solar wind region and in the magnetosheath. I did not make the study for the magnetosphere because the deviance is so large that cannot be explained in this way. The brief result for the solar wind and magnetosheath regions is that the badness of the GUMICS-4 simulations does not depend on the OMNI parameters.
+The reason of the disagree of the simulation results and the measurements could be the code or the bad input parameters. During the 1-year run the distributions of the OMNI solar wind magnetic field $B_{x}$, $B_{y}$, $B_{z}$ components; solar wind velocity $V_{x}$, $V_{y}$ $V_{z}$ componets and the solar wind pressure are calculated from January 29, 2002 to February 2, 2003 in GSE reference frame (Figure~\ref{fig:omnidist}). The intervals when the GUMICS$-$4 simulations and the Cluseter SC3 measurements disagreed are collected for intervals in the solar wind (Table~\ref{tab:omnisw}) and the magnetosheath (Table~\ref{tab:omnimsh}). The averaged shifted OMNI parameters of the badly agree intervals from the Tables~\ref{tab:omnisw}~and~\ref{tab:omnimsh} are saved. The distributions of the OMNI parameters belong to the bad simulation results are calculated for the solar wind region (Figure~\ref{fig:swomnibxyz},~\ref{fig:swomnivxyz}~and~\ref{fig:swomnip}) and in the magnetosheath (Figure~\ref{fig:mshomnibxyz},~\ref{fig:mshomnivxyz}~and~\ref{fig:mshomnip}).
 
-Figure~\ref{fig:omnidist}
+% Elemzes
 
-Table~\ref{tab:omnisw} Table~\ref{tab:omnimsh}
-
-Figure~\ref{fig:swomnibxyz}, Figure~\ref{fig:swomnivxyz}, Figure~\ref{fig:swomnip}
-
-Figure~\ref{fig:mshomnibxyz}, Figure~\ref{fig:mshomnivxyz}, Figure~\ref{fig:mshomnip}
-
-% 20020129 to 20030202
-
-% Dist plots
-
-% --------------------
+The badness of the GUMICS-4 simulations does not depend on the OMNI parameters in the solar wind and magnetosheath regions. For the magnetosphere the same study does not need to be done because the deviance of the measurements and the simulations is so large that it cannot be caused by the wrong OMNI solar wind parameters.
 
 The bow shock locations agree in the GUMICS simulations and the Cluster SC3 measurements. However, the magnetopause locations does not fit as good as the bow shock in simulations and observations. In simulations the location of the magnetopause are determined by currents densities or particle density gradients \citep[][see references therein]{garcia07:_findin_lyon_fedder_mobar,gordeev13:_verif_gumic_mhd}. In this paper the previously saved simulation parameters along the virtual Cluster SC3 orbit are analysed. Therefore, the above mentioned methods cannot be applied. The reason of the inaccuracy of the magnetopause positions in the simulations must be the missing inner magnetosphere and ring current module. This discrepancy of the magnetopause location agrees with the results of \citet{gordeev13:_verif_gumic_mhd} and \citet{facsko16:_one_earth}. \citet{gordeev13:_verif_gumic_mhd} compared synthetic GUMICS runs with empirical formula of the magnetopause locations. \citet{facsko16:_one_earth} used OMNI solar wind data as input and got the same result as \citet{gordeev13:_verif_gumic_mhd} and this paper.
 
@@ -300,7 +290,7 @@ The OMNI data were obtained from the GSFC/SPDF OMNIWeb interface at http://omniw
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.9\textwidth,angle=0]{swe-2020-corr-f13.eps}  
-\caption{.}
+\caption{The distributions of the OMNI solar wind magnetic field ($B_{x}$, $B_{y}$, $B_{z}$) and velocity ($V_{x}$, $V_{y}$, $V_{z}$) components; furthermore the solar wind dynamic pressure during the 1-year run from January 29, 2002 to February 2, 2003 in GSE reference frame. The relative values are given on the vertical axis of all plots in percentage.}
 \label{fig:omnidist}
 \end{figure}
 
